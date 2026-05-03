@@ -97,8 +97,9 @@ Deployment Method: GitHub Actions + SSH
 Execution Environment: Docker or Node.js runtime
 Security: SSH key-based authentication (no password login)
 
-📸 Deployment Evidence
-GitHub Actions successful workflow screenshot
+ Deployment Evidence
+GitHub Actions successful workflow screenshot: <img width="1152" height="621" alt="Screenshot 2026-05-03 at 09 03 02" src="https://github.com/user-attachments/assets/571c09d0-3259-4f08-a283-7c1e9972c6dd" />
+
 EC2 instance running application
 Live endpoint response (optional)
 

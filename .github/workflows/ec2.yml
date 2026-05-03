@@ -36,14 +36,14 @@ jobs:
             sudo apt install -y nodejs npm
           fi
 
-          # Clone or update the AWS-Session repo
-          if [ ! -d "AWS-Session" ]; then
-            git clone https://github.com/1O1manu/AWS-Sessions.git
+          # Clone or update repo
+          if [ ! -d "CI-CD-ec2-node-app" ]; then
+            git clone https://github.com/1O1manu/CI-CD-ec2-node-app.git
           else
-            cd AWS-Sessions && git pull origin main
+            cd CI-CD-ec2-node-app && git pull origin main
           fi
 
-          cd AWS-Sessions
+          cd CI-CD-ec2-node-app
           npm install
           npm start &
         EOF

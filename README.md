@@ -77,7 +77,7 @@ The updated application becomes accessible on the EC2 server endpoint.
 
 ▶️ Running Locally
 # Clone repository
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/1O1manu/CI-CD-ec2-node-app.git
 
 
 # Navigate into project
